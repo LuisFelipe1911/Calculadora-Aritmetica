@@ -66,7 +66,7 @@ while(contador > 0){
     soma += numero;
 
 
-    // adicionando 1 a variavel contador, até chegar a quantidade de numeros que o usuario digitou
+    // adicionando -1 a variavel contador, até chegar a 0 e parar o loop
     contador = contador - 1;
 
 

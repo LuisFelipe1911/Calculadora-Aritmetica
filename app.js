@@ -40,7 +40,7 @@ let soma = 0;
 // variavel para controlar o loop
 let contador = qtdNumeros;
 
-// variavel que irá fazer a divisão para armazenar o resultado da media aritimetica
+// variavel que irá fazer a divisão para armazenar o resultado da media aritmética
 let media = 0;
 
 // loop, só para quando o contador for menor que 0 ou for igual a 0

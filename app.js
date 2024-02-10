@@ -34,7 +34,7 @@
 //
 let qtdNumeros = parseInt(prompt('Digite a quantidade de números para o cálculo da média:'));
 
-// variavel para juntar o valor do numero para essa variavel 
+// variavel para juntar o valor da variavel numero para essa variavel 
 let soma = 0;
 
 // variavel para controlar o loop

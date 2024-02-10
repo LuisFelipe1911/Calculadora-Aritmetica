@@ -82,9 +82,6 @@ while(contador > 0){
 // Chaves indicando que o loop acabou
 
 
-// exibe o valor da variavel media para o console do navegador
-console.log("Resultado da conta: " + media);
-
 // Variavel para dividir o valor da soma por o valor da variavel  qtdNumeros
 //   Exemplo:
 //
@@ -92,4 +89,9 @@ console.log("Resultado da conta: " + media);
 //   
 //
 media = soma / qtdNumeros;
+
+// exibe o valor da variavel media para o console do navegador
+console.log("Resultado da conta: " + media);
+
+
 

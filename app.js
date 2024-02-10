@@ -67,7 +67,7 @@ while(contador > 0){
 
 
     // adicionando 1 a variavel contador, até chegar a quantidade de numeros que o usuario digitou
-    contador = contador - 1
+    contador = contador - 1;
 
 
   

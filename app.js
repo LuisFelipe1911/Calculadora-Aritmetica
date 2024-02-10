@@ -43,7 +43,7 @@ let contador = qtdNumeros;
 // variavel que irá fazer a divisão para armazenar o resultado da media aritmética
 let media = 0;
 
-// loop, só para quando o contador for menor que 0 ou for igual a 0
+// loop, só para quando o contador for igual a 0
 while(contador > 0){
     // Variavel para armazenar os valores dos numeros digitados
     let numero = parseFloat(prompt('Digite o numero:'));

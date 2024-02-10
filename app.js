@@ -38,13 +38,13 @@ let qtdNumeros = parseInt(prompt('Digite a quantidade de números para o cálcul
 let soma = 0;
 
 // variavel para controlar o loop
-let contador = 0;
+let contador = qtdNumeros;
 
 // variavel que irá fazer a divisão para armazenar o resultado da media aritimetica
 let media = 0;
 
-// loop, executa todos os comandos abaixo,só vai parar enquanto contador chegar  ao valor da variavel qtdNumeros
-while(contador < qtdNumeros){
+// loop, só para quando o contador for menor que 0 ou for igual a 0
+while(contador > 0){
     // Variavel para armazenar os valores dos numeros digitados
     let numero = parseFloat(prompt('Digite o numero:'));
 
@@ -67,16 +67,10 @@ while(contador < qtdNumeros){
 
 
     // adicionando 1 a variavel contador, até chegar a quantidade de numeros que o usuario digitou
-    contador = contador + 1
+    contador = contador - 1
 
 
-    // Variavel para dividir o valor da soma por o valor da variavel  qtdNumeros
-    //   Exemplo:
-    //
-    //   3.7 / 2
-    //   
-    //
-       media = soma / qtdNumeros;
+  
 
 
 
@@ -90,4 +84,12 @@ while(contador < qtdNumeros){
 
 // exibe o valor da variavel media para o console do navegador
 console.log("Resultado da conta: " + media);
+
+// Variavel para dividir o valor da soma por o valor da variavel  qtdNumeros
+//   Exemplo:
+//
+//   3.7 / 2
+//   
+//
+media = soma / qtdNumeros;
 

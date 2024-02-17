@@ -91,7 +91,7 @@ while(contador > 0){
 media = soma / qtdNumeros;
 
 // exibe o valor da variavel media para o console do navegador
-console.log("Resultado da conta: " + media);
+alert("Resultado da conta: " + media);
 
 
 
